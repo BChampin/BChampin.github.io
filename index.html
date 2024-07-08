@@ -1,3 +1,16 @@
-<!DOCTYPE html><html><head><title>Bastien Champin</title><meta charset=utf-8><meta name=description content="Bastien Champin web portfolio source code"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=viewport content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width"><link rel=icon type=image/ico href="/favicon.ico">  <script type="module" crossorigin src="/assets/index.30d0c87d.js"></script>
-  <link rel="stylesheet" href="/assets/index.a5947383.css">
-</head><body><div id=q-app></div></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= productName %></title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="<%= productDescription %>">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+  </head>
+  <body>
+    <!-- quasar:entry-point -->
+  </body>
+</html>
